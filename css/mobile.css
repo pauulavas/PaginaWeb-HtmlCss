@@ -1,0 +1,26 @@
+/* reglas para la pagina */
+@media (max-width: 600px) {
+    /* inicio */
+    .products{
+        display: inherit;  
+        /* para que se coloquen verticales cuando se haga peque;a la pagina */
+        height: auto;
+
+    }
+
+    .product{
+        margin-top: auto;
+    }
+
+    .main_section{
+        padding: 4%;
+    }
+
+    /* beneficios y mension */
+
+    .beneficios, .menciones{
+        display: inherit;
+
+    }
+
+}
